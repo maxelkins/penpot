@@ -19,21 +19,17 @@
   grid-column: 1 / span 1;
   height: 100vh;
   display: flex;
-  padding-top: 7vh 0;
+  padding: 7vh 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #feecfd;
-  // background-image: url("/images/login-pink.svg");
-  // background-position: center;
-  // background-size: 96%;
-  // background-repeat: no-repeat;
 
   .tagline {
     text-align: center;
     width: 280px;
     font-size: $fs18;
-    margin-top: $size-6 $size-4 0 $size-4;
+    margin: $size-6 $size-4 0 $size-4;
     color: #2c233e;
   }
 
@@ -44,13 +40,13 @@
     svg {
       margin: 0 $size-4;
       fill: #2c233e;
-      // max-width: 11vw;
       width: 100%;
       height: 80px;
     }
   }
   .illustration {
     overflow: hidden;
+
     img {
       object-fit: contain;
       height: 100%;
@@ -72,7 +68,6 @@
     margin-bottom: 30px;
 
     .form-container {
-      // width: 412px;
       flex-direction: column;
       .auth-buttons {
         margin: $size-6 0 $size-4 0;
