@@ -46,7 +46,7 @@
       [:a.logo {:href "#/"} i/logo]
       [:p.tagline (tr "auth.sidebar-tagline")]
       [:div.illustration
-        [:img {:src "/images/login-pink-v2.svg"}]]]
+        [:img {:src "/images/login-pink.svg"}]]]
 
      [:section.auth-content
       (case section
