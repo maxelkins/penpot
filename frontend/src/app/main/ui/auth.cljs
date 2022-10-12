@@ -45,8 +45,8 @@
      [:section.auth-sidebar
       [:a.logo {:href "#/"} i/logo]
       [:p.tagline (tr "auth.sidebar-tagline")]
-      [:div.illustration]
-        [:img {:src "/images/login-pink.svg"}]]
+      [:div.illustration
+        [:img {:src "/images/login-pink-v2.svg"}]]]
 
      [:section.auth-content
       (case section
